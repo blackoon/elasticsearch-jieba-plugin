@@ -3,6 +3,7 @@ jieba analysis plugin for elasticsearch: ***7.0.0***, ***6.4.0***, ***6.0.0***, 
 
 ## edw.ad_ott_mac_etl 
 - ottmac与周边设备对应关系全量表
+
 | 字段       | 字段类型        |  字段说明           |
 | ---       | ---        | ---                    |
 | ott_mac   | string     | 电视mac                 |
@@ -14,8 +15,9 @@ jieba analysis plugin for elasticsearch: ***7.0.0***, ***6.4.0***, ***6.0.0***, 
 | res_ratio   | string     | 常驻系数                |
 | brand   | string     | 手机品牌               |
 | type   | string     | 设备类型，0，非手机设备，1，手机设备，2，无效数据               |
-| extend_field1   | string     | 备用字段1                 |
+| extend_field1   | string     | 备用字段1               |
 | extend_field2   | string     | 备用字段2               |
+
 ### 有关jieba_index和jieba_search的应用
 
 [戳这里](about_jieba_index_jieba_search.md)
